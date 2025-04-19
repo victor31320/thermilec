@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thermilec - Domotique Intelligente</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: white;
+      color: #002f5f;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header img {
+      transition: transform 0.3s ease;
+    }
+
+    header img:hover {
+      transform: scale(1.05);
+    }
+
+    nav {
+      background-color: #002f5f;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      background-color: white;
+      margin: 20px auto;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .partners-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .partners-logos img {
+      max-height: 60px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+    }
+
+    .partners-logos img:hover {
+      filter: none;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #004080;
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+      .partners-logos {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body id="top">
+  <header>
+    <img src="LOGO THERMILEC.png" alt="Logo Thermilec" width="250">
+    <h1>Thermilec</h1>
+    <p>Votre bâtiment. Votre contrôle. Votre avenir.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#history">Histoire</a></li>
+      <li><a href="#partners">Partenaires</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>Qui sommes-nous ?</h2>
+    <p>Thermilec est une entreprise spécialisée dans les solutions de domotique pour les professionnels. Notre mission : simplifier votre quotidien grâce à la technologie.</p>
+  </section>
+
+  <section id="history">
+    <h2>Notre Histoire</h2>
+    <p>Thermilec a été fondée en 2006 avec pour objectif de transformer la manière dont les entreprises interagissent avec leurs bâtiments. Passionnés par les nouvelles technologies et la domotique, Abel Tripon a commencé seul puis Raphaël Feau l'a rejoint en 2023. Au fil des années, notre expertise s'est enrichie et nous avons élargi nos services pour répondre aux besoins croissants du marché.</p>
+    <p>Depuis notre création, nous avons installé des centaines de systèmes domotiques dans tout le Sud de la France, permettant à nos clients de bénéficier de solutions de plus en plus intelligentes, efficaces et simples à utiliser. Aujourd'hui, Thermilec est reconnu pour sa fiabilité, son engagement envers la satisfaction client et sa capacité à anticiper les tendances technologiques du futur.</p>
+    <p>Notre vision reste la même : simplifier la vie de nos clients en mettant la technologie à leur service, pour un confort et une sécurité optimaux.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nos services</h2>
+    <ul>
+      <li>Installation de systèmes domotiques</li>
+      <li>Automatisation de l'éclairage, chauffage et sécurité</li>
+      <li>Gestion à distance</li>
+      <li>Maintenance et assistance personnalisée</li>
+    </ul>
+  </section>
+
+  <section id="partners">
+    <h2>Nos partenaires</h2>
+    <p>Nous travaillons en collaboration avec des leaders technologiques pour garantir la fiabilité et la performance de nos installations.</p>
+    <div class="partners-logos">
+      <a href="https://hit.sbt.siemens.com/RWD/app.aspx?RC=FR&lang=fr" target="_blank">
+        <img src="siemens-logo.png" alt="Siemens">
+      </a>
+      <a href="https://www.lacroix-environment.fr/" target="_blank">
+        <img src="sofrel-logo.png" alt="Sofrel">
+      </a>
+      <!-- Ajout de Sofrel -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Email : <a href="mailto:thermilec@thermilec.fr">thermilec@thermilec.fr</a></p>
+    <p>Téléphone : <a href="tel:+33534408637">+33 5 34 40 86 37</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Thermilec. Tous droits réservés.</p>
+    <p><a href="#top" style="color:white; text-decoration:underline;">Retour en haut ↑</a></p>
+  </footer>
+</body>
+</html>
